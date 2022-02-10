@@ -1,5 +1,6 @@
 package base;
 
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -146,7 +147,7 @@ public class MobileAPI {
     }
     public void scrollToElement(AppiumDriver driver, String text){
         MobileElement we = (MobileElement) driver.findElementByXPath(text);
-        driver.scrollTo(we.getText());
+        //driver.scrollTo(we.getText());
     }
     public void alertAccept(WebDriver driver){
         WebDriverWait wait = new WebDriverWait(driver,5);
