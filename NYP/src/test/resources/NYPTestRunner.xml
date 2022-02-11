@@ -6,7 +6,7 @@
     <parameter name="OS" value="iOS"/>
     <parameter name="appType" value="phone"/>
     <parameter name="deviceType" value="Simulator"/>
-    <parameter name="deviceName" value="iPhone 12"/>
+    <parameter name="deviceName" value="iPhone 11"/>
     <parameter name="version" value="15.2"/>
     <parameter name="moduleName" value="NYP"/>
     <parameter name="appName" value="nyp.apk"/>
