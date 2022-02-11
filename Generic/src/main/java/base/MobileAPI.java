@@ -159,6 +159,6 @@ public class MobileAPI {
         }
     }
     public void scrollAndClickByName(String locator){
-        appiumDriver.scrollTo(locator).click();
+        //appiumDriver.scrollTo(locator).click();
     }
 }

@@ -122,7 +122,7 @@ public class MainPage extends MobileAPI {
         scrollAndClickByName(mainMenuArr[13]);
         Assert.assertTrue(txtPageHeading.getText().contains("REAL ESTATE"));
     }
-    public void getPhotots(){
+    public void getPhotos(){
         getMenu();
         scrollAndClickByName(mainMenuArr[14]);
         Assert.assertTrue(txtPageHeading.getText().contains("PHOTOS"));
