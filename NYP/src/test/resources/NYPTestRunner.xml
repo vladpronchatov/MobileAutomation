@@ -3,11 +3,11 @@
 
 <suite name ="NYP Android Test Automation Script" parallel="false">
 
-    <parameter name="OS" value="Android"/>
+    <parameter name="OS" value="iOS"/>
     <parameter name="appType" value="phone"/>
-    <parameter name="deviceType" value="RealDevice"/>
-    <parameter name="deviceName" value="Note 20"/>
-    <parameter name="version" value="12"/>
+    <parameter name="deviceType" value="Simulator"/>
+    <parameter name="deviceName" value="iPhone 12"/>
+    <parameter name="version" value="15.2"/>
     <parameter name="moduleName" value="NYP"/>
     <parameter name="appName" value="nyp.apk"/>
 
